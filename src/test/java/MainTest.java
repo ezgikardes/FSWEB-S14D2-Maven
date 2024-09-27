@@ -53,7 +53,7 @@ public class MainTest {
     public void testLampInstanceTypes() throws NoSuchFieldException {
         assertThat(lamp.getStyle(), instanceOf(LampType.class));
         assertThat(lamp.isBattery(), instanceOf(Boolean.class));
-        assertThat(lamp.getGlobRating(), instanceOf(Integer.class));
+        assertThat(lamp.getGlobalRating(), instanceOf(Integer.class));
     }
 
     @DisplayName("Lamp turnOn methodu doğru çalışıyor mu?")
